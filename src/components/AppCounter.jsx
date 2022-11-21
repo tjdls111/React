@@ -6,8 +6,8 @@ export default function AppCounter() {
   return (
     <div>
       <div className='banner'> Total : {count} {count < 10? '🥺' : '😎'}</div>
-      <Counter setCount={setCount}/>
-      <Counter setCount={setCount}/>
+      <Counter total={count} setCount={setCount}/>
+      <Counter total={count} setCount={setCount}/>
     </div>
   );
 }
