@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import AppCounter from './components/AppCounter.jsx';
 
 function App() {
   return (
-    <>
-   <h1>hello</h1>
-   <h3>in</h3>
-    </>
+   <AppCounter/>
   );
 }
 
