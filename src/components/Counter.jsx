@@ -7,7 +7,9 @@ export default function Counter() {
      <div className='number'>
       {number}
      </div>
-     <button className="counter-btn" onClick={()=>{setNumber(number+1)}}>Click</button>
+     <button className="counter-btn" onClick={()=>{
+      setNumber((prev)=>{ return prev+1})
+      }}>Click</button>
     </div>
   );
 }
