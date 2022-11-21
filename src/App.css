@@ -16,3 +16,12 @@ position:relative;
   height:200px;
   border-radius: 100%;
 }
+.new{
+  background-color: aquamarine;
+  padding:10px;
+  position:absolute;
+  top:40px;
+  right:50px;
+  border-radius: 10px;
+  font-weight: 800;
+}
